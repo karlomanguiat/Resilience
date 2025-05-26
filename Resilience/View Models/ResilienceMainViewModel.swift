@@ -9,7 +9,7 @@ import Foundation
 
 class ResilienceMainViewModel: ObservableObject {
     // Progress Dashboard
-    @Published var currentDay: Int = 2
+    @Published var currentDay: Int = 1
     @Published var totalDays: Int = 75
     @Published var failedAttempts: Int = 0
 

@@ -19,7 +19,9 @@
 		BC2130FF2DE44C43002730E9 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130FE2DE44C43002730E9 /* DashboardViewModel.swift */; };
 		BC2131012DE44D25002730E9 /* ResilienceMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2131002DE44D25002730E9 /* ResilienceMainViewModel.swift */; };
 		BC2131032DE44F4E002730E9 /* TaskLoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2131022DE44F4E002730E9 /* TaskLoggingView.swift */; };
-		BC2131052DE4553A002730E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2131042DE4553A002730E9 /* LoginView.swift */; };
+		BC8EF7C02DE4A41A00584C14 /* PhotoUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8EF7BF2DE4A41A00584C14 /* PhotoUploadView.swift */; };
+		BC8EF7C22DE4B4CC00584C14 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8EF7C12DE4B4CC00584C14 /* ButtonView.swift */; };
+		BCD14E412DE4BC150015799F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD14E3F2DE4BC150015799F /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +57,9 @@
 		BC2130FE2DE44C43002730E9 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		BC2131002DE44D25002730E9 /* ResilienceMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResilienceMainViewModel.swift; sourceTree = "<group>"; };
 		BC2131022DE44F4E002730E9 /* TaskLoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskLoggingView.swift; sourceTree = "<group>"; };
-		BC2131042DE4553A002730E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BC8EF7BF2DE4A41A00584C14 /* PhotoUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUploadView.swift; sourceTree = "<group>"; };
+		BC8EF7C12DE4B4CC00584C14 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BCD14E3F2DE4BC150015799F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,9 +148,9 @@
 		BC2130F82DE44B2A002730E9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BC2130F92DE44B3F002730E9 /* DashboardView.swift */,
-				BC2131022DE44F4E002730E9 /* TaskLoggingView.swift */,
-				BC2131042DE4553A002730E9 /* LoginView.swift */,
+				BCD14E422DE4BC1F0015799F /* Home */,
+				BCD14E402DE4BC150015799F /* Authentication */,
+				BC8EF7C12DE4B4CC00584C14 /* ButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +163,24 @@
 				BC2131002DE44D25002730E9 /* ResilienceMainViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		BCD14E402DE4BC150015799F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BCD14E3F2DE4BC150015799F /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BCD14E422DE4BC1F0015799F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BC2130F92DE44B3F002730E9 /* DashboardView.swift */,
+				BC2131022DE44F4E002730E9 /* TaskLoggingView.swift */,
+				BC8EF7BF2DE4A41A00584C14 /* PhotoUploadView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +322,13 @@
 				BC2130F62DE44A80002730E9 /* CheckInTask.swift in Sources */,
 				BC2130FA2DE44B3F002730E9 /* DashboardView.swift in Sources */,
 				BC2130F32DE4494C002730E9 /* ContentView.swift in Sources */,
-				BC2131052DE4553A002730E9 /* LoginView.swift in Sources */,
 				BC2131012DE44D25002730E9 /* ResilienceMainViewModel.swift in Sources */,
 				BC2130FF2DE44C43002730E9 /* DashboardViewModel.swift in Sources */,
+				BC8EF7C22DE4B4CC00584C14 /* ButtonView.swift in Sources */,
 				BC2131032DE44F4E002730E9 /* TaskLoggingView.swift in Sources */,
 				BC2130FD2DE44B84002730E9 /* CheckInTaskViewModel.swift in Sources */,
+				BCD14E412DE4BC150015799F /* LoginView.swift in Sources */,
+				BC8EF7C02DE4A41A00584C14 /* PhotoUploadView.swift in Sources */,
 				BC2130F42DE4494C002730E9 /* ResilienceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

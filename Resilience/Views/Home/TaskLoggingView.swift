@@ -9,8 +9,9 @@ import SwiftUI
 
 struct TaskLoggingView: View {
     @ObservedObject var viewModel: ResilienceMainViewModel
+    
     var body: some View {
-        VStack (alignment: .leading, spacing: 12) {
+        VStack (alignment: .leading, spacing: 24) {
             Text("Daily Check-in: Day \(viewModel.currentDay)")
                 .font(.title2)
                 .bold()
@@ -36,6 +37,10 @@ struct TaskLoggingView: View {
                 .cornerRadius(10)
                 .foregroundColor(task.isCompleted ? .white : .primary)
             }
+            
+            NavigationLink(destination: PhotoUploadView()) {
+              ButtonView()
+           }
         }
         .padding(32)
         .background(Color(.systemBackground))
