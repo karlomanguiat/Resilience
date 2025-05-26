@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var resilienceVM = ResilienceMainViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            DashboardView(viewModel: resilienceVM)
+            
+            ScrollView {
+                TaskLoggingView(viewModel: resilienceVM)
+            }
         }
-        .padding()
+        .background(Color(.systemGroupedBackground))
     }
 }
 

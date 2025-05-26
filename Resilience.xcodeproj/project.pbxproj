@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BC2130E82DE44948002730E9 /* ResilienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130E62DE44948002730E9 /* ResilienceTests.swift */; };
+		BC2130EC2DE44949002730E9 /* ResilienceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130E92DE44949002730E9 /* ResilienceUITests.swift */; };
+		BC2130ED2DE44949002730E9 /* ResilienceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130EA2DE44949002730E9 /* ResilienceUITestsLaunchTests.swift */; };
+		BC2130F22DE4494C002730E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2130EE2DE4494C002730E9 /* Assets.xcassets */; };
+		BC2130F32DE4494C002730E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130EF2DE4494C002730E9 /* ContentView.swift */; };
+		BC2130F42DE4494C002730E9 /* ResilienceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130F02DE4494C002730E9 /* ResilienceApp.swift */; };
+		BC2130F62DE44A80002730E9 /* CheckInTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130F52DE44A80002730E9 /* CheckInTask.swift */; };
+		BC2130FA2DE44B3F002730E9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130F92DE44B3F002730E9 /* DashboardView.swift */; };
+		BC2130FD2DE44B84002730E9 /* CheckInTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130FC2DE44B84002730E9 /* CheckInTaskViewModel.swift */; };
+		BC2130FF2DE44C43002730E9 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2130FE2DE44C43002730E9 /* DashboardViewModel.swift */; };
+		BC2131012DE44D25002730E9 /* ResilienceMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2131002DE44D25002730E9 /* ResilienceMainViewModel.swift */; };
+		BC2131032DE44F4E002730E9 /* TaskLoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2131022DE44F4E002730E9 /* TaskLoggingView.swift */; };
+		BC2131052DE4553A002730E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2131042DE4553A002730E9 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BC2130CA2DE4493F002730E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +43,20 @@
 		BC2130BC2DE4493D002730E9 /* Resilience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resilience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2130C92DE4493F002730E9 /* ResilienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResilienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2130D32DE4493F002730E9 /* ResilienceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResilienceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2130E62DE44948002730E9 /* ResilienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResilienceTests.swift; sourceTree = "<group>"; };
+		BC2130E92DE44949002730E9 /* ResilienceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResilienceUITests.swift; sourceTree = "<group>"; };
+		BC2130EA2DE44949002730E9 /* ResilienceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResilienceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC2130EE2DE4494C002730E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2130EF2DE4494C002730E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC2130F02DE4494C002730E9 /* ResilienceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResilienceApp.swift; sourceTree = "<group>"; };
+		BC2130F52DE44A80002730E9 /* CheckInTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInTask.swift; sourceTree = "<group>"; };
+		BC2130F92DE44B3F002730E9 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		BC2130FC2DE44B84002730E9 /* CheckInTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInTaskViewModel.swift; sourceTree = "<group>"; };
+		BC2130FE2DE44C43002730E9 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		BC2131002DE44D25002730E9 /* ResilienceMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResilienceMainViewModel.swift; sourceTree = "<group>"; };
+		BC2131022DE44F4E002730E9 /* TaskLoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskLoggingView.swift; sourceTree = "<group>"; };
+		BC2131042DE4553A002730E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BC2130BE2DE4493D002730E9 /* Resilience */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Resilience;
-			sourceTree = "<group>";
-		};
-		BC2130CC2DE4493F002730E9 /* ResilienceTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ResilienceTests;
-			sourceTree = "<group>";
-		};
-		BC2130D62DE4493F002730E9 /* ResilienceUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ResilienceUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BC2130B92DE4493D002730E9 /* Frameworks */ = {
@@ -75,9 +86,9 @@
 		BC2130B32DE4493D002730E9 = {
 			isa = PBXGroup;
 			children = (
-				BC2130BE2DE4493D002730E9 /* Resilience */,
-				BC2130CC2DE4493F002730E9 /* ResilienceTests */,
-				BC2130D62DE4493F002730E9 /* ResilienceUITests */,
+				BC2130F12DE4494C002730E9 /* Resilience */,
+				BC2130E72DE44948002730E9 /* ResilienceTests */,
+				BC2130EB2DE44949002730E9 /* ResilienceUITests */,
 				BC2130BD2DE4493D002730E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +101,64 @@
 				BC2130D32DE4493F002730E9 /* ResilienceUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2130E72DE44948002730E9 /* ResilienceTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2130E62DE44948002730E9 /* ResilienceTests.swift */,
+			);
+			path = ResilienceTests;
+			sourceTree = "<group>";
+		};
+		BC2130EB2DE44949002730E9 /* ResilienceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2130E92DE44949002730E9 /* ResilienceUITests.swift */,
+				BC2130EA2DE44949002730E9 /* ResilienceUITestsLaunchTests.swift */,
+			);
+			path = ResilienceUITests;
+			sourceTree = "<group>";
+		};
+		BC2130F12DE4494C002730E9 /* Resilience */ = {
+			isa = PBXGroup;
+			children = (
+				BC2130EE2DE4494C002730E9 /* Assets.xcassets */,
+				BC2130EF2DE4494C002730E9 /* ContentView.swift */,
+				BC2130F02DE4494C002730E9 /* ResilienceApp.swift */,
+				BC2130F82DE44B2A002730E9 /* Views */,
+				BC2130F72DE44AE6002730E9 /* Models */,
+				BC2130FB2DE44B69002730E9 /* View Models */,
+			);
+			path = Resilience;
+			sourceTree = "<group>";
+		};
+		BC2130F72DE44AE6002730E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC2130F52DE44A80002730E9 /* CheckInTask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC2130F82DE44B2A002730E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC2130F92DE44B3F002730E9 /* DashboardView.swift */,
+				BC2131022DE44F4E002730E9 /* TaskLoggingView.swift */,
+				BC2131042DE4553A002730E9 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC2130FB2DE44B69002730E9 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC2130FC2DE44B84002730E9 /* CheckInTaskViewModel.swift */,
+				BC2130FE2DE44C43002730E9 /* DashboardViewModel.swift */,
+				BC2131002DE44D25002730E9 /* ResilienceMainViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +175,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BC2130BE2DE4493D002730E9 /* Resilience */,
 			);
 			name = Resilience;
 			packageProductDependencies = (
@@ -130,9 +196,6 @@
 			dependencies = (
 				BC2130CB2DE4493F002730E9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BC2130CC2DE4493F002730E9 /* ResilienceTests */,
-			);
 			name = ResilienceTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +215,6 @@
 			);
 			dependencies = (
 				BC2130D52DE4493F002730E9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BC2130D62DE4493F002730E9 /* ResilienceUITests */,
 			);
 			name = ResilienceUITests;
 			packageProductDependencies = (
@@ -212,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2130F22DE4494C002730E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2130F62DE44A80002730E9 /* CheckInTask.swift in Sources */,
+				BC2130FA2DE44B3F002730E9 /* DashboardView.swift in Sources */,
+				BC2130F32DE4494C002730E9 /* ContentView.swift in Sources */,
+				BC2131052DE4553A002730E9 /* LoginView.swift in Sources */,
+				BC2131012DE44D25002730E9 /* ResilienceMainViewModel.swift in Sources */,
+				BC2130FF2DE44C43002730E9 /* DashboardViewModel.swift in Sources */,
+				BC2131032DE44F4E002730E9 /* TaskLoggingView.swift in Sources */,
+				BC2130FD2DE44B84002730E9 /* CheckInTaskViewModel.swift in Sources */,
+				BC2130F42DE4494C002730E9 /* ResilienceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2130E82DE44948002730E9 /* ResilienceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2130EC2DE44949002730E9 /* ResilienceUITests.swift in Sources */,
+				BC2130ED2DE44949002730E9 /* ResilienceUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
