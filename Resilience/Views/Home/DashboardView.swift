@@ -16,16 +16,21 @@ struct DashboardView: View {
                 Text("Here's your current progress")
                     .font(.title2)
                     .bold()
+                
                 Spacer()
+                
                 Button(action: {
                     
                 }) {
                     HStack {
                         Image(systemName: "arrow.clockwise")
+                            .frame(width: 12, height: 12)
                         Text("Reset")
+                            .font(.subheadline)
                     }
                 }
                 .padding()
+                .frame(height: 44)
                 .background(Color.gray.opacity(0.2))
                 .cornerRadius(10)
                 .tint(.teal)

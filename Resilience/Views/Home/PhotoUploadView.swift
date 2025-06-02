@@ -11,16 +11,6 @@ struct PhotoUploadView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
 
     var body: some View {
-//        Button(action: {
-//           self.presentationMode.wrappedValue.dismiss()
-//        }) {
-//            VStack(alignment: .leading) {
-//                Image(systemName: "gobackward")
-//                    .frame(width: 32, height: 32)
-//            }
-//           
-//        }
-//        .navigationBarHidden(true)
         VStack {}
             .navigationTitle("")
             .navigationBarBackButtonHidden(true)

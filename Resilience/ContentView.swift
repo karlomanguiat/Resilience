@@ -19,7 +19,7 @@ struct ContentView: View {
                 }
             }
             .background(Color(.systemGroupedBackground))
-            .navigationBarHidden(true)
+            .navigationTitle("Resilience")
         }
     }
 }
